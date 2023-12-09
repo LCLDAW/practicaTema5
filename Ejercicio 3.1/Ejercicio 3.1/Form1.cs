@@ -26,7 +26,7 @@ namespace Ejercicio_3._1 {
             // telegrama urgente?
             if (cbUrgente.Checked)
                 tipoTelegrama = 'u';
-            //Obtengo el número de palabras que forma el telegrama
+            //Obtengo el número de palabras que forma el telegramas
             numPalabras = textoTelegrama.Length;
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
